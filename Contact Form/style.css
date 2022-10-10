@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(#00bfff,#3cb371)
+}
+.container{
+    max-width: 600px;
+    width: 100%;
+    height: 75vh;
+    background:white;
+    padding: 30px 60px;
+}
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+    padding: 10px 0;
+}
+.content-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 13px;
+    justify-content: flex-start;
+}
+.content-1 .p2{
+    margin-left: 150px;
+}
+.content-2{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.content-2 input{
+    width: 50%;
+    height: 5vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+}
+.content-2 :nth-child(2){
+    margin-left: 45px;
+}
+.content-3 p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.content-3 input{
+    width: 100%;
+    padding: 0 15px;
+    height: 5vh;
+    margin-bottom: 10px;
+    border: none;
+}
+.content-4 p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.content-4 textarea{
+    width: 100%;
+    height: 20vh;
+    padding: 10px 15px;
+    background-color: rgba(200, 211, 210, 0.342);
+    border: none;
+}
+.content-5{
+    text-align: center;
+    margin-top: 15px;
+}
+.content-5 input{
+    padding: 10px 28px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(#00bfff,#3cb371);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    background-color: rgba(200, 211, 210, 0.342);
+}
+.content-bottom{
+    margin-bottom: 200px;
+}
